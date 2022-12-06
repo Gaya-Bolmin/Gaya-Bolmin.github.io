@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Klee One', cursive;
+   
+}
+body{
+    background-color: blue;
+}
+/* logo */
+header nav a img.logo{
+    width:130px;
+    height:140px;
+    margin: 3px 3px;
+}
+/* menu */
+
+header nav{
+    background-color: aquamarine;
+    border: solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+header nav ul{
+    border: solid 3px red;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-right: 80px;
+}
+header nav ul li{
+    background-color: yellow;
+}
+header nav ul li a{
+    text-decoration: none;
+    margin: 25px;
+    font-size: 20px;
+}
+/* header{ 
+    position: sticky;
+    top: 0;
+}*/
+
+/* présentation salon */
+
+.pres{
+    border: solid red 5px;
+    display: flex;
+    margin: 30px;
+    align-items: center;
+    overflow: auto;
+}
+.pres img{
+    width: 300px;
+    height: 350px; 
+    border-radius: 50px;
+    padding: 15px 30px;
+}
+section h1{ 
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+.pres p{ 
+    text-align: left;
+    text-align:justify;
+    padding: 30px;  
+}
+/* equipe */
+main section#pres-equipe h2{
+    text-align: center;
+}
+
+.equipe{
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+}
+
+.equipe img{
+    height: 150px;
+    width: 150px;
+    border-radius: 25px;
+}
+
+.tattoo-artists {
+    display: flex;
+    flex-direction: column;
+    gap : 50px;
+    justify-content: center; 
+}
+#pres-equipe{
+    padding: 25px;
+}
+/* .tattoo-artist-1 h3{ */
+    /* padding: 15px; */
+/* } */
+/* .galerie{ 
+    display: flex;
+}*/
+
+.galerie h2{
+    text-align: center;
+}
+.galerie .tableau-style{
+    border-collapse: collapse;
+    min-width: 400px;
+    width: auto;
+    box-shadow: 0 5px 50px rgba(0, 0, 0, 0.15);
+    margin: 50px auto;
+    border: 2px solid midnightblue;
+}
+
+.galerie thead tr{
+    background-color: midnightblue;
+}
+
+.galerie th, td{
+    padding: 15px 20px;
+}
+.galerie tr, td, th{
+    border: 1px solid gray;
+}
+
+
+
+
+
+
+footer{
+padding: 15px 0;
+background-color: bisque;
+width: 100%;
+text-align: center;
+font-size: 15px;
+}
+
+
+
+
+
+
+
+   
+
+
