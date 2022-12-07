@@ -2,14 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Klee One', cursive;
-   
 }
 body{
-    background-color: blue;
+    /* width: 100vw; */
+    background-color: black;
+    font-family: 'Klee One', cursive;
+    color: white;
 }
 /* logo */
-header nav a img.logo{
+.logo{
     width:130px;
     height:140px;
     margin: 3px 3px;
@@ -17,24 +18,20 @@ header nav a img.logo{
 /* menu */
 
 header nav{
-    background-color: aquamarine;
-    border: solid black;
+    background-color:pink;
+    /* border: solid black; */
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
    
 }
 header nav ul{
-    border: solid 3px red;
+    background-color:  red;
     display: flex;
-    flex-wrap: wrap;
     list-style-type: none;
     margin-right: 80px;
 }
-header nav ul li{
-    background-color: yellow;
-}
+
 header nav ul li a{
     text-decoration: none;
     margin: 25px;
@@ -46,16 +43,16 @@ header nav ul li a{
 }*/
 
 /* présentation salon */
-
 .pres{
-    border: solid red 5px;
+    /* position: center; */
+    /* height: 60vh; */
+    background-color: blueviolet;
     display: flex;
     margin: 30px;
     align-items: center;
-    overflow: auto;
 }
 .pres img{
-    width: 300px;
+    /* width: 300px; */
     height: 350px; 
     border-radius: 50px;
     padding: 15px 30px;
@@ -68,34 +65,58 @@ section h1{
 .pres p{ 
     text-align: left;
     text-align:justify;
-    padding: 30px;  
+    /* padding: 30px;   */
 }
-/* equipe */
-main section#pres-equipe h2{
+/* equipe 
+    #pres-equipe{ 
+    padding: 25px; 
+ } */
+#pres-equipe h2{
     text-align: center;
+    background-color: blanchedalmond;  
 }
-
-.equipe{
-    background-color: blanchedalmond;
-    display: flex;
-    justify-content: center;
-}
-
-.equipe img{
+#pres-equipe img{
     height: 150px;
     width: 150px;
     border-radius: 25px;
+    margin: 20px;
+}
+.container-equipe{
+    background-color: brown;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+.tattoo-artists {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   /* text-align: justify; */
+   margin-right: 20px;
+   width: 200px;
+}   
+
+.tattoo-artists p{
+    text-align: center;
+
 }
 
-.tattoo-artists {
-    display: flex;
-    flex-direction: column;
-    gap : 50px;
-    justify-content: center; 
-}
-#pres-equipe{
-    padding: 25px;
-}
+
+
+
+
+
+
+
+
+/* .tattoo-artists { */
+    /*display: flex; */
+    /* gap : 50px;  */
+    /* padding: 20px; */
+    /* justify-content: center;*/
+/* } */
+
 /* .tattoo-artist-1 h3{ */
     /* padding: 15px; */
 /* } */
@@ -103,38 +124,31 @@ main section#pres-equipe h2{
     display: flex;
 }*/
 
+
 .galerie h2{
     text-align: center;
 }
 .galerie .tableau-style{
     border-collapse: collapse;
-    min-width: 400px;
-    width: auto;
-    box-shadow: 0 5px 50px rgba(0, 0, 0, 0.15);
-    margin: 50px auto;
-    border: 2px solid midnightblue;
+    box-shadow: 15px 15px 30px rgba(221, 57, 202);
+    margin: 100px auto;
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
 }
 
-.galerie thead tr{
-    background-color: midnightblue;
+table{
+    border-radius: 15px;
 }
+
 
 .galerie th, td{
     padding: 15px 20px;
 }
-.galerie tr, td, th{
-    border: 1px solid gray;
-}
-
-
-
-
-
 
 footer{
 padding: 15px 0;
 background-color: bisque;
-width: 100%;
+/* width: 100vw; */
 text-align: center;
 font-size: 15px;
 }
